@@ -1,6 +1,8 @@
+package Colaborador1;
+
 import java.util.Stack;
 
-public class Pila {
+public class Pila{
     public static void main(String[] args) {
         Stack<String> pila = new Stack<>();
 
@@ -37,6 +39,5 @@ public class Pila {
 
         int tamanoPila = pila.size();
         System.out.println("Tamaño de la pila: " + tamanoPila);
-        
-    }
+    }
 }
