@@ -2,8 +2,6 @@
 using namespace std;
 
 // Definición de la estructura Nodo
-#include <iostream>
-
 using namespace std;
 //Esta estructura deberá tener como atributos el tamaño de la memoria y
 //un puntero que representará la memoria dinámica
@@ -12,7 +10,6 @@ struct MemoriaDinamica {
     int* puntero; //puntero que apunta a la memoria
 };
 
-//reserva l
 void reservar_memoria(MemoriaDinamica& memoria, size_t tamano) {
     memoria.tamano = tamano;
     memoria.puntero = new int[tamano];
